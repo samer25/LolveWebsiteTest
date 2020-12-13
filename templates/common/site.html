@@ -1,0 +1,21 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% block style %} {% endblock %}
+    <link rel="stylesheet" type="text/css" href="{% static 'css/clear.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/main.css' %}">
+    <link href="//db.onlinewebfonts.com/c/0252223e8c36008b595f5e379ad5e524?family=Bradley+Hand+ITC" rel="stylesheet"
+          type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% block title %} {% endblock %}</title>
+</head>
+<body>
+{% block site_content %} {% endblock %}
+
+
+{% block script %} {% endblock %}
+<script type="application/javascript" rel="script" href="{% static 'js/main.js' %}"></script>
+</body>
+</html>

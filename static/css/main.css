@@ -1,0 +1,23 @@
+body {
+    font-family: 'Bradley Hand ITC', sans-serif;
+    color: #f2f2f2;
+    background-color: #19181a;
+    letter-spacing: 5px;
+}
+
+.box {
+    margin:10% auto;
+    top:50%;
+    left:50%;
+    /*width: 50%;*/
+    text-align-last: center;
+}
+
+.box div {
+    margin: 5% auto;
+
+}
+
+.box .name {
+    font-size: 500%;
+}
