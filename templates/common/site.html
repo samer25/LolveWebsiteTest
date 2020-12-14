@@ -8,7 +8,8 @@
     <link href="//db.onlinewebfonts.com/c/0252223e8c36008b595f5e379ad5e524?family=Bradley+Hand+ITC" rel="stylesheet"
           type="text/css"/>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>{% block title %} {% endblock %}</title>
 </head>
 <body>
@@ -16,6 +17,7 @@
 
 
 {% block script %} {% endblock %}
-<script type="application/javascript" rel="script" href="{% static 'js/main.js' %}"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="application/javascript" rel="script" src="{% static 'js/main.js' %}"></script>
 </body>
 </html>

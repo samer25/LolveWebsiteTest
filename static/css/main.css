@@ -3,21 +3,75 @@ body {
     color: #f2f2f2;
     background-color: #19181a;
     letter-spacing: 5px;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-bottom: 5vw;
+
 }
 
 .box {
-    margin:10% auto;
-    top:50%;
-    left:50%;
-    /*width: 50%;*/
+    padding-top: 10%;
+    margin: auto;
     text-align-last: center;
 }
 
 .box div {
-    margin: 5% auto;
+    margin: auto;
 
 }
 
 .box .name {
-    font-size: 500%;
+    font-size: 20vw;
+}
+
+.box .artefact a, .philosophy a {
+    font-size: 1.5vw;
+    color: #f2f2f2;
+
+}
+
+.box small {
+    font-size: 14vw;
+    margin-left: -1vw;
+    margin-right: -3vw;
+
+}
+
+
+.button-success,
+.button-error {
+    border-radius: 4px;
+    padding: 1vw;
+    text-shadow: 0 1px 1px #f2f2f2;
+
+
+}
+
+.button-success {
+
+
+}
+
+.button-success:hover {
+    opacity: 0.8;
+    box-shadow: 0 0 25px 6px #f2f2f2;
+    cursor: pointer;
+}
+
+.button-error:hover {
+    box-shadow: 0 0 25px 6px #f2f2f2;
+}
+
+.box-text {
+    width: 65vw;
+    margin: 100% auto;
+    text-align: center;
+    letter-spacing: 0.4vw;
+    /*word-spacing: 0.5vw;*/
+    font-size: 3vh;
+    line-height: 100px;
+    text-shadow: 0 1px 1px #f2f2f2;
+    padding-top: 20px;
+
+
 }
