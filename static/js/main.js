@@ -75,14 +75,6 @@ function scrollFunction(id) {
 
 }
 
-// $(window).scroll(function () {
-//     const height = $(window).scrollTop();
-//     if (height > 100 || height < 1) {
-//         $('#back2Top').fadeIn();
-//     } else {
-//         $('#back2Top').fadeOut();
-//     }
-// });
 $(document).ready(function () {
     $("#back2Top").click(function (event) {
         $('#back2Top').fadeOut();
