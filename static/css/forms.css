@@ -1,0 +1,65 @@
+form {
+    width: 40%;
+    margin: auto;
+    display: grid;
+}
+
+label, .button {
+    margin-top: 35px;
+
+}
+
+.button {
+    width: 10vh;
+
+}
+
+h1 {
+    text-align: center;
+
+
+}
+
+.form-box {
+    padding-top: 20vh;
+    padding-bottom: 5vh;
+    overflow: auto;
+    margin-bottom: 25vh;
+    display: none;
+    opacity: 0;
+    /*visibility: hidden;*/
+
+}
+
+
+.forms {
+    width: 50%;
+    padding: 3%;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 0 0 20px 5px #f2f2f2;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+.form-control {
+    width: 90%;
+    height: 25px;
+    border-radius: 5px;
+    border-color: #f2f2f2;
+    background-color: #f2f2f2;
+}
+
+
+.textarea {
+    padding: 5px;
+    width: 90%;
+    height: 100%;
+    border-radius: 5px;
+    border-color: #ff0a3f;
+}
+
+
